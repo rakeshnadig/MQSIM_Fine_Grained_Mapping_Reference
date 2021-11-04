@@ -1,0 +1,89 @@
+﻿  Device_Parameter_Set.cpp
+  Execution_Parameter_Set.cpp
+  Flash_Parameter_Set.cpp
+  Host_Parameter_Set.cpp
+  Host_System.cpp
+  IO_Flow_Parameter_Set.cpp
+  SSD_Device.cpp
+C:\SAFARI\MQSIM_Study\Kalliopi\src\exec\SSD_Device.cpp(35,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\SAFARI\MQSIM_Study\Kalliopi\src\exec\SSD_Device.cpp(42,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  IO_Flow_Base.cpp
+  IO_Flow_Synthetic.cpp
+  IO_Flow_Trace_Based.cpp
+  PCIe_Link.cpp
+  PCIe_Root_Complex.cpp
+  PCIe_Switch.cpp
+  SATA_HBA.cpp
+  main.cpp
+  Block.cpp
+  Die.cpp
+  Flash_Chip.cpp
+  Physical_Page_Address.cpp
+  Plane.cpp
+  Generating Code...
+  Compiling...
+  Engine.cpp
+  EventTree.cpp
+  Address_Mapping_Unit_Base.cpp
+  Address_Mapping_Unit_Hybrid.cpp
+  Address_Mapping_Unit_Page_Level.cpp
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\Address_Mapping_Unit_Page_Level.cpp(886,24): warning C4244: 'argument': conversion from 'PPA_type' to 'int', possible loss of data
+  Controller.cpp
+  Data_Cache_Flash.cpp
+  Data_Cache_Manager_Base.cpp
+  Data_Cache_Manager_Flash_Advanced.cpp
+  Data_Cache_Manager_Flash_Simple.cpp
+  Flash_Block_Manager.cpp
+  Flash_Block_Manager_Base.cpp
+  Flash_Transaction_Queue.cpp
+  FTL.cpp
+  GC_and_WL_Unit_Base.cpp
+  GC_and_WL_Unit_Page_Level.cpp
+  Host_Interface_Base.cpp
+  Host_Interface_NVMe.cpp
+  Host_Interface_SATA.cpp
+  NVM_Firmware.cpp
+  Generating Code...
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\Address_Mapping_Unit_Page_Level.cpp(692): warning C4715: 'SSD_Components::Address_Mapping_Unit_Page_Level::translate_lpa_to_ppa': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\Address_Mapping_Unit_Page_Level.cpp(753): error C4703: potentially uninitialized local pointer variable 'update_read_tr' used
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\Address_Mapping_Unit_Page_Level.cpp(297): warning C4715: 'SSD_Components::AddressMappingDomain::Get_ppa': not all control paths return a value
+  Compiling...
+  NVM_PHY_Base.cpp
+  NVM_PHY_ONFI.cpp
+  NVM_PHY_ONFI_NVDDR2.cpp
+  NVM_Transaction_Flash.cpp
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash.cpp(56,22): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash.cpp(81,22): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  NVM_Transaction_Flash_ER.cpp
+  NVM_Transaction_Flash_RD.cpp
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_RD.cpp(91,32): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_RD.cpp(117,30): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  NVM_Transaction_Flash_WR.cpp
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_WR.cpp(91,32): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_WR.cpp(117,29): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ONFI_Channel_Base.cpp
+  ONFI_Channel_NVDDR2.cpp
+  Queue_Probe.cpp
+  Stats.cpp
+  TSU_Base.cpp
+  TSU_FLIN.cpp
+  TSU_OutofOrder.cpp
+  User_Request.cpp
+  CMRRandomGenerator.cpp
+  Helper_Functions.cpp
+  Logical_Address_Partitioning_Unit.cpp
+  RandomGenerator.cpp
+  StringTools.cpp
+  Generating Code...
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_WR.cpp(97): warning C4715: 'SSD_Components::NVM_Transaction_Flash_WR::get_data_timestamp': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_WR.cpp(122): warning C4715: 'SSD_Components::NVM_Transaction_Flash_WR::get_related_read': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_WR.cpp(126): warning C4715: 'SSD_Components::NVM_Transaction_Flash_WR::get_related_read': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_RD.cpp(97): warning C4715: 'SSD_Components::NVM_Transaction_Flash_RD::get_data_timestamp': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash_RD.cpp(124): warning C4715: 'SSD_Components::NVM_Transaction_Flash_RD::get_related_write': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash.cpp(61): warning C4715: 'SSD_Components::NVM_Transaction_Flash::get_lpa': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash.cpp(65): warning C4715: 'SSD_Components::NVM_Transaction_Flash::get_lpa': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash.cpp(86): warning C4715: 'SSD_Components::NVM_Transaction_Flash::get_ppa': not all control paths return a value
+C:\SAFARI\MQSIM_Study\Kalliopi\src\ssd\NVM_Transaction_Flash.cpp(90): warning C4715: 'SSD_Components::NVM_Transaction_Flash::get_ppa': not all control paths return a value
+  Compiling...
+  XMLWriter.cpp
+  Generating Code...
